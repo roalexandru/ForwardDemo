@@ -1,5 +1,6 @@
 {
   "name": "ExpenseReporting.Activities",
+  "projectId": "fb99d6bf-28c9-4053-88dd-41e1ff1279ca",
   "description": "Library created with Studio to help business users submit expense reports",
   "main": "NewActivity.xaml",
   "dependencies": {
@@ -18,6 +19,7 @@
     "isAttended": false,
     "requiresUserInteraction": false,
     "supportsPersistence": false,
+    "workflowSerialization": "DataContract",
     "excludedLoggedData": [
       "Private:*",
       "*password*"
@@ -39,7 +41,7 @@
       "ignoredFiles": []
     },
     "fileInfoCollection": [],
-    "modernBehavior": true
+    "saveToCloud": false
   },
   "expressionLanguage": "VisualBasic",
   "isTemplate": false,
